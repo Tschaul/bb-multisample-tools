@@ -4,14 +4,9 @@ const path = require('path');
 const riffChunks = require("riff-chunks");
 const process = require("child_process");
 
+// usage: node src/index.js encode -p "C:\Users\Julian\Downloads\VSCO-2-CE-master\VSCO-2-CE-master\Strings\Cello Section\susvib\susvib_#{NS}_v1_1.wav" -t "C:\Code\temp\VSCO-Cello-Section-susvib-v1" -v 2
+
 const { noteNumberToString, decodeBytes, encodeNumber, noteStringToNumber } = require('./helper');
-
-
-
-
-
-
-
 
 const mapping = {
 
